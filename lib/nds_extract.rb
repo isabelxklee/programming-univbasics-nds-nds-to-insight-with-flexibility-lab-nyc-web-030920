@@ -94,7 +94,7 @@ def movies_with_directors_set(test_data)
   while index < test_data.length do 
     counter = 0
     while counter < test_data[index][:movies].length do
-      array.push(test_data[index][:movies][counter])
+      array.push([test_data[index][:movies][counter]])
       counter += 1
     end 
     index += 1
